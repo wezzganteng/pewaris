@@ -1,0 +1,186 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open sans", sans-serif;
+
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 0px;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: solid #3f72af;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-size: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin: 50px;
+    display: 50px;
+    text-align: center;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: comic sans-ms;
+    color: #364f6b;
+}
+
+h2 {
+    font-family: comic sans ms;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 0px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+a.tbl-pink {
+    background: #e92f57;
+    border-radius: 20px;
+    margin-top: 0px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background-color: #1ad520;
+    color: rgb(252, 248, 248);
+}
+
+
+a.tbl-biru:hover {
+    background-color: #1ad520;
+    color: rgb(252, 248, 248);
+}
+
+p {
+    margin: 5px 0px 5px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.tombol-ungu {
+    background: #8f8b94;
+    border-radius: 20px;
+    margin-top: 0px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombol-ungu:hover {
+    background-color: #e92f57;
+    color: #FFFFFF;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #3f72af;
+    z-index: 1;
+    border-top: solid #500ee9;
+}
+
+
+.loga a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #3f72af;
+}
+
+.Partners-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-Partners {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-Partners img {
+    width: 150px;
+    border-radius: 50%;
+}
